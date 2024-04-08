@@ -1,0 +1,28 @@
+body {
+    background: #ee705a;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    padding: 20 px;
+}
+
+.abs-center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* Estilo para logo */
+nav img {
+    max-width: 100px;
+    padding: 10px;
+    justify-content: space-between;
+   
+}
