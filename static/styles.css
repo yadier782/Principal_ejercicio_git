@@ -15,8 +15,18 @@ body {
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10 auto;
     justify-content: space-between;
+}
+
+.offset {
+    margin-top: 60px; /* Espacio en la parte superior */
+    margin-bottom: 80px; /* Espacio en la parte inferior */
+}
+
+.form-group {
+    margin-top: 80px; /* Espacio entre cada grupo de formulario */
+    text-align: center; /* Centrar el texto dentro de cada grupo */
 }
 
 /* Estilo para logo */
