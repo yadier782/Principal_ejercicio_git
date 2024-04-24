@@ -1,0 +1,38 @@
+body {
+    background: #ee705a;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    padding: 20 px;
+}
+
+.abs-center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 10 auto;
+    justify-content: space-between;
+}
+
+.offset {
+    margin-top: 60px; /* Espacio en la parte superior */
+    margin-bottom: 80px; /* Espacio en la parte inferior */
+}
+
+.form-group {
+    margin-top: 80px; /* Espacio entre cada grupo de formulario */
+    text-align: center; /* Centrar el texto dentro de cada grupo */
+}
+
+/* Estilo para logo */
+nav img {
+    max-width: 100px;
+    padding: 10px;
+    justify-content: space-between;
+   
+}
